@@ -17,39 +17,26 @@ Tab 2: A simple table showing the percentage of sales and gross profit by each p
 
 **D. Analysis:** Analyze the table data to identify products that may require further review by the sales team, focusing on those generating significantly higher or lower gross profit relative to sales.
 
-> Outcome: The completed report will enable the CFO to visualize critical sales and profit metrics, supporting strategic decisions regarding marketing and pricing strategies for the brewing company.
+> Outcome: The completed report enables the CFO to visualize critical sales and profit metrics, supporting strategic decisions regarding marketing and pricing strategies for the brewing company.
 
-Project Completion Process
-Step 1: Data Acquisition and Transformation
-Power Query M Language.
-Ensure that the data model diagram includes a single fact table and four separate dimension tables (currency, customer, product, and CFO metrics).
+>![SSBC Seasonality Report](https://github.com/user-attachments/assets/459e7738-8e03-4c88-9c77-8cd3fc3578f0)
+![SSBC Sales and GPM](https://github.com/user-attachments/assets/cdf3d001-5516-4c48-9e30-4c0f8dc0f0de)
+![SSBC Report by Product Type](https://github.com/user-attachments/assets/6e5a51db-b019-44a9-b298-da24fe33d22b)
+![SSBC Gross Profit and Unit Sales](https://github.com/user-attachments/assets/700d5a31-bc02-4a45-aac2-08e6f17dc13a)
+
+
+**Project Completion Process**
+Step 1: Data Acquisition and Transformation using Power Query M Language.
 Step 2: Data Cleaning
+Step 3: Create Date Table
+Step 4: Build Relationships: one-to-many relationships between each dimension table (the "one" side) and the fact table (the "many" side).
+Step 5: Develop DAX Measures that meet the reporting requirements - Sales in USD, Cost of Sales in USD, Gross Profit Margin (GPM) in USD, Sales in CAD, Percentage of Unit Sales by Product, Share of Gross Profit by Product Type
+Step 6: Create the Report/Visualization.
 
-Clean the data to remove any obvious typos and errors that could affect reporting functionality.
-Verify that the final customer types are accurate, ensuring only three types: "Bar," "Distributor," and "SSBC Tasting Room."
-Step 3: Date Table Creation
+📂 Files Included
+**PowerBi Reports (.pbix)**
+**M Language Transformation Query (.fs)**
+**Linguistic Schema (.yaml)**
 
-Create a dynamic date table using Power Query that updates based on the fact table’s start and end dates.
-Include standard fields such as continuous calendar dates, month names, fiscal periods, and fiscal years.
-Step 4: Building Relationships
 
-Establish one-to-many relationships between each dimension table (the "one" side) and the fact table (the "many" side).
-Ensure that all arrows in the data model point towards the fact table.
-Step 5: DAX Measures Development
-
-Create key DAX measures that meet reporting requirements, including:
-Sales in USD
-Cost of Sales in USD
-Gross Profit Margin (GPM) in USD
-Sales in CAD
-Percentage of Unit Sales by Product
-Share of Gross Profit by Product Type
-Step 6: Report Creation
-
-Design the reporting layer with two tabs:
-Tab 1: Include two card visualizations, one matrix, and a text box with an executive summary of key findings.
-Tab 2: Create a simple table showing the percentage of sales and gross profit by each product, ensuring the totals equal 100%.
-Step 7: Review and Finalization
-
-Review the report for clarity, accuracy, and proper labeling of all measures and visualizations.
-Ensure that the layout facilitates easy interpretation of the data and insights for stakeholders.
+📂 Files Included
