@@ -37,6 +37,3 @@ Step 6: Create the Report/Visualization.
 **PowerBi Reports (.pbix)**
 **M Language Transformation Query (.fs)**
 **Linguistic Schema (.yaml)**
-
-
-📂 Files Included
