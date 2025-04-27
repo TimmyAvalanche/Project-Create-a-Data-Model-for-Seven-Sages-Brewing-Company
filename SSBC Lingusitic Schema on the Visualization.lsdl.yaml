@@ -1,0 +1,1376 @@
+Version: 4.1.0
+Language: en-US
+Entities:
+  USDCAD_exchange_rate:
+    Definition:
+      Binding: {Table: USD-CAD Exchange Rates}
+    State: Generated
+    Terms:
+    - USD-CAD exchange rate: {State: Generated}
+    - USD CAD exchange rate: {State: Generated, Weight: 0.97}
+    - rate: {State: Generated, Weight: 0.97}
+    - exchange rate: {State: Generated, Weight: 0.97}
+    - CAD exchange rate: {State: Generated, Weight: 0.97}
+    - usd-cad exchange degree: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.52}
+    - usd-cad exchange frequency: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.52}
+    - usd-cad exchange percentage: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.52}
+    - usd-cad exchange ratio: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.52}
+    - usd-cad exchange quotient: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.52}
+    - usd cad exchange degree: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.514}
+    - usd cad exchange frequency: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.514}
+    - usd cad exchange percentage: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.514}
+    - usd cad exchange ratio: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.514}
+    - usd cad exchange quotient: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.514}
+
+  USDCAD_exchange_rate.date:
+    Definition:
+      Binding: {Table: USD-CAD Exchange Rates, Column: Date}
+    State: Generated
+    Terms:
+    - date: {State: Generated}
+    - moment: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+    SemanticType: Time
+
+  USDCAD_exchange_rate.date.date_hierarchy:
+    Definition:
+      Binding: {Table: USD-CAD Exchange Rates, VariationSource: Date, VariationSet: Variation, Hierarchy: Date Hierarchy}
+    State: Generated
+    Terms:
+    - date hierarchy: {State: Generated, Weight: 0.97}
+    SemanticType: Time
+
+  USDCAD_exchange_rate.date.year:
+    Definition:
+      Binding: {Table: USD-CAD Exchange Rates, VariationSource: Date, VariationSet: Variation, Hierarchy: Date Hierarchy, HierarchyLevel: Year}
+    State: Generated
+    Terms:
+    - year: {State: Generated}
+    - date year: {State: Generated}
+    - date yr: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.75}
+    - yr: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+    - moment year: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.6}
+    - period year: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.582}
+    SemanticType: Time
+
+  USDCAD_exchange_rate.date.quarter:
+    Definition:
+      Binding: {Table: USD-CAD Exchange Rates, VariationSource: Date, VariationSet: Variation, Hierarchy: Date Hierarchy, HierarchyLevel: Quarter}
+    State: Generated
+    Terms:
+    - quarter: {State: Generated}
+    - date quarter: {State: Generated}
+    - date qtr: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.833}
+    - moment quarter: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.6}
+    - period quarter: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.582}
+    SemanticType: Time
+
+  USDCAD_exchange_rate.date.month:
+    Definition:
+      Binding: {Table: USD-CAD Exchange Rates, VariationSource: Date, VariationSet: Variation, Hierarchy: Date Hierarchy, HierarchyLevel: Month}
+    State: Generated
+    Terms:
+    - month: {State: Generated}
+    - date month: {State: Generated}
+    - date mth: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.75}
+    - mth: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+    - moment month: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.6}
+    - period month: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.582}
+    SemanticType: Time
+
+  USDCAD_exchange_rate.date.day:
+    Definition:
+      Binding: {Table: USD-CAD Exchange Rates, VariationSource: Date, VariationSet: Variation, Hierarchy: Date Hierarchy, HierarchyLevel: Day}
+    State: Generated
+    Terms:
+    - day: {State: Generated}
+    - date day: {State: Generated}
+    - moment day: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.6}
+    - period day: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.582}
+    SemanticType: Time
+
+  USDCAD_exchange_rate.usd:
+    Definition:
+      Binding: {Table: USD-CAD Exchange Rates, Column: USD}
+    State: Generated
+    Terms:
+    - usd: {State: Generated}
+
+  USDCAD_exchange_rate.cad:
+    Definition:
+      Binding: {Table: USD-CAD Exchange Rates, Column: CAD}
+    State: Generated
+    Terms:
+    - cad: {State: Generated}
+    - scoundrel: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.491}
+    - rascal: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.491}
+    - scalawag: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.491}
+    - rogue: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.476}
+    - rake: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.476}
+    - blackguard: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.476}
+
+  SSBC_customer_list_as_of_FY2021:
+    Definition:
+      Binding: {Table: SSBC Customer List (as of FY2021)}
+    State: Generated
+    Terms:
+    - SSBC customer list (as of FY2021): {State: Generated}
+
+  SSBC_customer_list_as_of_FY2021.PK_customer_ID:
+    Definition:
+      Binding: {Table: SSBC Customer List (as of FY2021), Column: PKCustomerID}
+    State: Generated
+    Terms:
+    - PK customer ID: {State: Generated}
+    - PKCustomerID: {Type: Noun, State: Generated, Weight: 0.99}
+    - customer ID: {State: Generated, Weight: 0.97}
+    - pk customer identification: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.762}
+    - pk customer identity: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.762}
+    - pk customer identifier: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.762}
+    - customer identification: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.75}
+    - customer identity: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.75}
+    - customer identifier: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.75}
+    - pk customer credential: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.739}
+    - customer credential: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.727}
+    - pk client id: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.609}
+    - pk consumer id: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.609}
+
+  SSBC_customer_list_as_of_FY2021.customer:
+    Definition:
+      Binding: {Table: SSBC Customer List (as of FY2021), Column: Customer}
+    State: Generated
+    Terms:
+    - customer: {State: Generated}
+    - client: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+    - consumer: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+    - user: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+    - buyer: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+    - patron: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+    - purchaser: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+    - shopper: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+
+  SSBC_customer_list_as_of_FY2021.customer_type:
+    Definition:
+      Binding: {Table: SSBC Customer List (as of FY2021), Column: Customer Type}
+    State: Generated
+    Terms:
+    - customer type: {State: Generated}
+    - type: {State: Generated, Weight: 0.97}
+    - customer category: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.75}
+    - customer genre: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.75}
+    - customer manner: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.75}
+    - customer variety: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.75}
+    - category: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+    - genre: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+    - manner: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+    - variety: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+    - customer brand: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.727}
+    - customer class: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.727}
+
+  SSBC_customer_list_as_of_FY2021.city:
+    Definition:
+      Binding: {Table: SSBC Customer List (as of FY2021), Column: City}
+    State: Generated
+    Terms:
+    - city: {State: Generated}
+    - location: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+    - metropolis: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+    - municipality: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+    - town: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.714}
+    - metropolitan: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.714}
+
+  SSBC_customer_list_as_of_FY2021.state_province:
+    Definition:
+      Binding: {Table: SSBC Customer List (as of FY2021), Column: State/Province}
+    State: Generated
+    Terms:
+    - state/province: {State: Generated}
+    - state: {State: Generated, Weight: 0.97}
+    - state province: {State: Generated, Weight: 0.97}
+    - province: {State: Generated, Weight: 0.97}
+    - location: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+    - territory: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+    - nation: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+    - condition: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.714}
+    - location /province: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.609}
+    - province /province: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.609}
+    - territory /province: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.609}
+    - nation /province: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.609}
+    - location province: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.6}
+    - province province: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.6}
+
+  SSBC_customer_list_as_of_FY2021.country:
+    Definition:
+      Binding: {Table: SSBC Customer List (as of FY2021), Column: Country}
+    State: Generated
+    Terms:
+    - country: {State: Generated}
+    - nation: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+    - location: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+
+  SSBC_fiscal_calendar:
+    Definition:
+      Binding: {Table: SSBC Fiscal Calendar}
+    State: Generated
+    Terms:
+    - SSBC fiscal calendar: {State: Generated}
+    - calendar: {State: Generated, Weight: 0.97}
+    - fiscal calendar: {State: Generated, Weight: 0.97}
+    - ssbc fiscal almanac: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.508}
+    - ssbc fiscal datebook: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.508}
+    - ssbc fiscal agenda: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.508}
+    - ssbc fiscal logbook: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.508}
+    - ssbc fiscal diary: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.508}
+    - fiscal almanac: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.5}
+    - fiscal datebook: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.5}
+    - fiscal agenda: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.5}
+    - fiscal logbook: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.5}
+    - fiscal diary: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.5}
+
+  SSBC_fiscal_calendar.date:
+    Definition:
+      Binding: {Table: SSBC Fiscal Calendar, Column: Date}
+    State: Generated
+    Terms:
+    - date: {State: Generated}
+    - moment: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+    SemanticType: Time
+
+  SSBC_fiscal_calendar.year:
+    Definition:
+      Binding: {Table: SSBC Fiscal Calendar, Column: Year}
+    State: Generated
+    Terms:
+    - year: {State: Generated}
+    - yr: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+    SemanticType: Time
+
+  SSBC_fiscal_calendar.month:
+    Definition:
+      Binding: {Table: SSBC Fiscal Calendar, Column: Month}
+    State: Generated
+    Terms:
+    - month: {State: Generated}
+    - mth: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+
+  SSBC_fiscal_calendar.month_name:
+    Definition:
+      Binding: {Table: SSBC Fiscal Calendar, Column: Month Name}
+    State: Generated
+    Terms:
+    - month name: {State: Generated}
+    - month nickname: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.727}
+    - month title: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.727}
+    - month label: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.727}
+    - month tag: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.727}
+    - mth name: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.6}
+
+  SSBC_fiscal_calendar.quarter:
+    Definition:
+      Binding: {Table: SSBC Fiscal Calendar, Column: Quarter}
+    State: Generated
+    Terms:
+    - quarter: {State: Generated}
+
+  SSBC_fiscal_calendar.week_of_year:
+    Definition:
+      Binding: {Table: SSBC Fiscal Calendar, Column: Week of Year}
+    State: Generated
+    Terms:
+    - week of year: {State: Generated}
+    - week of yr: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.609}
+
+  SSBC_fiscal_calendar.day_name:
+    Definition:
+      Binding: {Table: SSBC Fiscal Calendar, Column: Day Name}
+    State: Generated
+    Terms:
+    - day name: {State: Generated}
+    - day nickname: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.727}
+    - day title: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.727}
+    - day label: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.727}
+    - day tag: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.727}
+
+  SSBC_fiscal_calendar.monthshort:
+    Definition:
+      Binding: {Table: SSBC Fiscal Calendar, Column: Month-Short}
+    State: Generated
+    Terms:
+    - month-short: {State: Generated}
+    - month short: {State: Generated, Weight: 0.97}
+    - short: {State: Generated, Weight: 0.97}
+    - mth -short: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.609}
+    - mth short: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.6}
+    - small: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.476}
+    - little: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.476}
+    - petite: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.476}
+    - squat: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.476}
+    - diminutive: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.476}
+    - brief: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.452}
+    - quick: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.452}
+    - rapid: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.452}
+
+  SSBC_fiscal_calendar.period:
+    Definition:
+      Binding: {Table: SSBC Fiscal Calendar, Column: Period}
+    State: Generated
+    Terms:
+    - period: {State: Generated}
+    - era: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.466}
+    - epoch: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.466}
+    - age: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.452}
+    - stage: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.452}
+    - phase: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.452}
+
+  SSBC_fiscal_calendar.month_number:
+    Definition:
+      Binding: {Table: SSBC Fiscal Calendar, Column: Month Number}
+    State: Generated
+    Terms:
+    - month number: {State: Generated}
+    - month no: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.727}
+    - mth number: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.6}
+
+  SSBC_fiscal_calendar.fiscal_period:
+    Definition:
+      Binding: {Table: SSBC Fiscal Calendar, Column: Fiscal Period}
+    State: Generated
+    Terms:
+    - fiscal period: {State: Generated}
+    - fiscal era: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.475}
+    - fiscal epoch: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.475}
+    - fiscal age: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.461}
+    - fiscal stage: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.461}
+    - fiscal phase: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.461}
+    - fiscal episode: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.451}
+    - fiscal interlude: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.451}
+    - fiscal interval: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.451}
+    - fiscal extent: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.451}
+
+  SSBC_fiscal_calendar.fiscal_year:
+    Definition:
+      Binding: {Table: SSBC Fiscal Calendar, Column: Fiscal Year}
+    State: Generated
+    Terms:
+    - fiscal year: {State: Generated}
+    - fiscal yr: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.75}
+    - fisc year: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.6}
+    - accounting year: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.582}
+    - budget year: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.582}
+    - fiscal date: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.582}
+    - fiscal day: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.582}
+    - tax year: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.582}
+
+  SSBC_fiscal_calendar.fiscal_quarter:
+    Definition:
+      Binding: {Table: SSBC Fiscal Calendar, Column: Fiscal Quarter}
+    State: Generated
+    Terms:
+    - fiscal quarter: {State: Generated}
+    - fisc quarter: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.582}
+    - fiscal qrt: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.582}
+    - fiscal qrtr: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.582}
+
+  SSBC_fiscal_calendar.fiscal_qtr:
+    Definition:
+      Binding: {Table: SSBC Fiscal Calendar, Column: Fiscal Qtr}
+    State: Generated
+    Terms:
+    - fiscal qtr: {State: Generated}
+    - qtr: {State: Generated, Weight: 0.97}
+
+  SSBC_productcost_profile:
+    Definition:
+      Binding: {Table: SSBC Product-Cost Profile}
+    State: Generated
+    Terms:
+    - SSBC product-cost profile: {State: Generated}
+    - SSBC product cost profile: {State: Generated, Weight: 0.97}
+    - profile: {State: Generated, Weight: 0.97}
+    - cost profile: {State: Generated, Weight: 0.97}
+    - product cost profile: {State: Generated, Weight: 0.97}
+    - ssbc artifact -cost profile: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.624}
+    - ssbc artifact cost profile: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.617}
+    - artifact cost profile: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.609}
+    - ssbc item -cost profile: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.605}
+    - ssbc merchandise -cost profile: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.605}
+    - ssbc produce -cost profile: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.605}
+    - ssbc item cost profile: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.599}
+    - ssbc merchandise cost profile: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.599}
+    - ssbc produce cost profile: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.599}
+    - item cost profile: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.591}
+
+  SSBC_productcost_profile.PK_product_ID:
+    Definition:
+      Binding: {Table: SSBC Product-Cost Profile, Column: PKProductID}
+    State: Generated
+    Terms:
+    - PK product ID: {State: Generated}
+    - PKProductID: {Type: Noun, State: Generated, Weight: 0.99}
+    - product: {State: Generated, Weight: 0.97}
+    - product ID: {State: Generated, Weight: 0.97}
+    - pk product identification: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.762}
+    - pk product identity: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.762}
+    - pk product identifier: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.762}
+    - product identification: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.75}
+    - product identity: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.75}
+    - product identifier: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.75}
+    - pk product credential: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.739}
+    - artifact: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+    - product credential: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.727}
+    - item: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.714}
+
+  SSBC_productcost_profile.product_name:
+    Definition:
+      Binding: {Table: SSBC Product-Cost Profile, Column: PRODUCT NAME}
+    State: Generated
+    Terms:
+    - product name: {State: Generated}
+    - product: {State: Generated, Weight: 0.97}
+    - artifact: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+    - product nickname: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.727}
+    - product title: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.727}
+    - product label: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.727}
+    - product tag: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.727}
+    - item: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.714}
+    - merchandise: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.714}
+    - produce: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.714}
+    - artifact name: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.6}
+    - item name: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.582}
+
+  SSBC_productcost_profile.product_type:
+    Definition:
+      Binding: {Table: SSBC Product-Cost Profile, Column: Product Type}
+    State: Generated
+    Terms:
+    - product type: {State: Generated}
+    - type: {State: Generated, Weight: 0.97}
+    - product category: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.75}
+    - product genre: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.75}
+    - product manner: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.75}
+    - product variety: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.75}
+    - category: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+    - genre: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+    - manner: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+    - variety: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+    - product brand: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.727}
+    - product class: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.727}
+
+  SSBC_productcost_profile.serving_amount:
+    Definition:
+      Binding: {Table: SSBC Product-Cost Profile, Column: Serving Amount}
+    State: Generated
+    Terms:
+    - serving amount: {State: Generated}
+    - serving quantity: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.5}
+    - serving volume: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.5}
+    - serving expanse: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.5}
+    - serving extent: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.5}
+    - serving sum: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.485}
+    - serving total: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.485}
+    - serving aggregate: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.485}
+
+  SSBC_productcost_profile.abv:
+    Definition:
+      Binding: {Table: SSBC Product-Cost Profile, Column: ABV}
+    State: Generated
+    Terms:
+    - abv: {State: Generated}
+
+  SSBC_productcost_profile.ibu:
+    Definition:
+      Binding: {Table: SSBC Product-Cost Profile, Column: IBU}
+    State: Generated
+    Terms:
+    - ibu: {State: Generated}
+
+  SSBC_productcost_profile.per_unit_cost_to_make:
+    Definition:
+      Binding: {Table: SSBC Product-Cost Profile, Column: Per Unit Cost to make}
+    State: Generated
+    Terms:
+    - per unit cost to make: {State: Generated}
+    - per module cost to make: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.78}
+    - per element cost to make: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.78}
+    - per entity cost to make: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.78}
+    - per group cost to make: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.757}
+    - per component cost to make: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.757}
+    - per constituent cost to make: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.757}
+    - per item cost to make: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.757}
+    - per part cost to make: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.757}
+    - per section cost to make: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.757}
+    - per unit cost to variety: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.52}
+
+  SSBC_productcost_profile.per_unit_sales_price:
+    Definition:
+      Binding: {Table: SSBC Product-Cost Profile, Column: Per Unit Sales price}
+    State: Generated
+    Terms:
+    - per unit sales price: {State: Generated}
+    - per unit sale price: {Type: Noun, State: Generated, Weight: 0.78}
+    - per module sale price: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.771}
+    - per element sale price: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.771}
+    - per entity sale price: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.771}
+    - per group sale price: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.748}
+    - per component sale price: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.748}
+    - per constituent sale price: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.748}
+    - per item sale price: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.748}
+    - per part sale price: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.748}
+    - per section sale price: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.748}
+
+  SSBC_productcost_profile.BeerAdvocate_score:
+    Definition:
+      Binding: {Table: SSBC Product-Cost Profile, Column: BeerAdvocate Score}
+    State: Generated
+    Terms:
+    - BeerAdvocate score: {State: Generated}
+    - beeradvocate notch: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.485}
+    - beeradvocate slash: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.485}
+    - beeradvocate groove: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.485}
+    - beeradvocate nick: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.485}
+    - beeradvocate cut: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.485}
+    - beeradvocate mark: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.485}
+    - beeradvocate total: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.461}
+    - beeradvocate tally: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.461}
+    - beeradvocate grade: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.461}
+    - beeradvocate result: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.461}
+
+  SSBC_productcost_profile.cost_rank:
+    Definition:
+      Binding: {Table: SSBC Product-Cost Profile, Column: Cost Rank}
+    State: Generated
+    Terms:
+    - cost rank: {State: Generated}
+
+  SSBC_productcost_profile.sales_rank:
+    Definition:
+      Binding: {Table: SSBC Product-Cost Profile, Column: Sales Rank}
+    State: Generated
+    Terms:
+    - sales rank: {State: Generated}
+    - sale rank: {Type: Noun, State: Generated, Weight: 0.78}
+
+  SSBC_productcost_profile.gross_profit_per_serving:
+    Definition:
+      Binding: {Table: SSBC Product-Cost Profile, Column: Gross Profit Per Serving}
+    State: Generated
+    Terms:
+    - gross profit per serving: {State: Generated}
+    - profit: {State: Generated, Weight: 0.97}
+    - gross profit: {State: Generated, Weight: 0.97}
+    - aggregate profit per serving: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.665}
+    - overall profit per serving: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.665}
+    - whole profit per serving: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.665}
+    - aggregate profit: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.647}
+    - overall profit: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.647}
+    - whole profit: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.647}
+    - sum profit per serving: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.599}
+    - total profit per serving: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.599}
+    - sum profit: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.582}
+    - total profit: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.582}
+
+  SSBC_monthly_sales_log:
+    Definition:
+      Binding: {Table: SSBC Monthly Sales Logs}
+    State: Generated
+    Terms:
+    - SSBC monthly sales log: {State: Generated}
+    - SSBC monthly sale log: {Type: Noun, State: Generated, Weight: 0.78}
+    - log: {State: Generated, Weight: 0.97}
+    - sales log: {State: Generated, Weight: 0.97}
+    - sale log: {Type: Noun, State: Generated, Weight: 0.7566}
+    - monthly sales log: {State: Generated, Weight: 0.97}
+    - monthly sale log: {Type: Noun, State: Generated, Weight: 0.7566}
+    - ssbc monthly sale journal: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.514}
+    - ssbc monthly sale diary: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.514}
+    - ssbc monthly sale daybook: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.514}
+    - ssbc monthly sale logbook: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.514}
+    - monthly sale journal: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.508}
+    - monthly sale diary: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.508}
+    - monthly sale daybook: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.508}
+
+  SSBC_monthly_sales_log.PK_customer_ID:
+    Definition:
+      Binding: {Table: SSBC Monthly Sales Logs, Column: PKCustomerID}
+    State: Generated
+    Visibility: Hidden
+    Terms:
+    - PK customer ID: {State: Generated}
+    - PKCustomerID: {Type: Noun, State: Generated, Weight: 0.99}
+    - customer ID: {State: Generated, Weight: 0.97}
+    - pk customer identification: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.762}
+    - pk customer identity: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.762}
+    - pk customer identifier: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.762}
+    - customer identification: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.75}
+    - customer identity: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.75}
+    - customer identifier: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.75}
+    - pk customer credential: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.739}
+    - customer credential: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.727}
+    - pk client id: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.609}
+    - pk consumer id: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.609}
+
+  SSBC_monthly_sales_log.PK_product_ID:
+    Definition:
+      Binding: {Table: SSBC Monthly Sales Logs, Column: PKProductID}
+    State: Generated
+    Visibility: Hidden
+    Terms:
+    - PK product ID: {State: Generated}
+    - PKProductID: {Type: Noun, State: Generated, Weight: 0.99}
+    - product: {State: Generated, Weight: 0.97}
+    - product ID: {State: Generated, Weight: 0.97}
+    - pk product identification: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.762}
+    - pk product identity: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.762}
+    - pk product identifier: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.762}
+    - product identification: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.75}
+    - product identity: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.75}
+    - product identifier: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.75}
+    - pk product credential: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.739}
+    - artifact: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+    - product credential: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.727}
+    - item: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.714}
+
+  SSBC_monthly_sales_log.date:
+    Definition:
+      Binding: {Table: SSBC Monthly Sales Logs, Column: Date}
+    State: Generated
+    Terms:
+    - date: {State: Generated}
+    - moment: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.736}
+    SemanticType: Time
+
+  SSBC_monthly_sales_log.currency:
+    Definition:
+      Binding: {Table: SSBC Monthly Sales Logs, Column: Currency}
+    State: Generated
+    Terms:
+    - currency: {State: Generated}
+    - money: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.491}
+    - coinage: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.491}
+    - exchange: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.476}
+    - cash: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.476}
+    - prevalence: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.466}
+    - frequency: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.466}
+    - popularity: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.466}
+    - vogue: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.466}
+    - circulation: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.466}
+    - commonness: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.466}
+
+  SSBC_monthly_sales_log.quantity:
+    Definition:
+      Binding: {Table: SSBC Monthly Sales Logs, Column: Quantity}
+    State: Generated
+    Terms:
+    - quantity: {State: Generated}
+    - extent: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.491}
+    - magnitude: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.491}
+    - measure: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.476}
+    - size: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.476}
+    - capacity: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.476}
+    - mass: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.476}
+
+  SSBC_monthly_sales_log.total_sales_cad:
+    Definition:
+      Binding: {Table: SSBC Monthly Sales Logs, Measure: TOTAL SALES (CAD)}
+    State: Generated
+    Terms:
+    - total sales (cad): {State: Generated}
+    - total sales: {State: Generated, Weight: 0.75}
+    - aggregate sale (cad): {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.605}
+    - overall sale (cad): {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.605}
+    - total sale (cad): {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.605}
+
+  SSBC_monthly_sales_log.total_sales_usd:
+    Definition:
+      Binding: {Table: SSBC Monthly Sales Logs, Measure: TOTAL SALES (USD)}
+    State: Generated
+    Terms:
+    - total sales (usd): {State: Generated}
+    - total sales: {State: Generated, Weight: 0.75}
+    - aggregate sale (usd): {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.605}
+    - overall sale (usd): {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.605}
+    - total sale (usd): {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.605}
+
+  SSBC_monthly_sales_log.cogs_usd:
+    Definition:
+      Binding: {Table: SSBC Monthly Sales Logs, Measure: COGS (USD)}
+    State: Generated
+    Terms:
+    - cogs (usd): {State: Generated}
+    - cogs: {State: Generated, Weight: 0.75}
+
+  SSBC_monthly_sales_log.GPM_Year_total__USD:
+    Definition:
+      Binding: {Table: SSBC Monthly Sales Logs, Measure: GPM_Year Total % (USD)}
+    State: Generated
+    Terms:
+    - GPM_Year total % (USD): {State: Generated}
+    - GPM_Year total %: {State: Generated, Weight: 0.75}
+
+  SSBC_monthly_sales_log.PCT_unit_sales_by_product:
+    Definition:
+      Binding: {Table: SSBC Monthly Sales Logs, Measure: PCT Unit Sales By Product}
+    State: Generated
+    Terms:
+    - PCT unit sales by product: {State: Generated}
+    - sales: {State: Generated, Weight: 0.97}
+    - unit sales: {State: Generated, Weight: 0.97}
+    - PCT unit sales: {State: Generated, Weight: 0.97}
+    - pct unit sale by product: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.757}
+    - pct unit sale: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.739}
+    - unit sale: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.727}
+    - sale: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.714}
+    - pct module sale by product: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.624}
+    - pct element sale by product: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.624}
+    - pct entity sale by product: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.624}
+    - pct unit sale by artifact: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.624}
+    - pct module sale: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.609}
+    - pct element sale: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.609}
+
+  SSBC_monthly_sales_log.sales_usd:
+    Definition:
+      Binding: {Table: SSBC Monthly Sales Logs, Measure: SALES (USD)}
+    State: Generated
+    Terms:
+    - sales (usd): {State: Generated}
+    - sales: {State: Generated, Weight: 0.75}
+    - sale (usd): {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.599}
+
+  SSBC_monthly_sales_log.cogs_by_product_usd:
+    Definition:
+      Binding: {Table: SSBC Monthly Sales Logs, Measure: COGS BY PRODUCT (USD)}
+    State: Generated
+    Terms:
+    - cogs by product (usd): {State: Generated}
+    - cogs by product: {State: Generated, Weight: 0.75}
+
+  SSBC_monthly_sales_log.gpm__usd:
+    Definition:
+      Binding: {Table: SSBC Monthly Sales Logs, Measure: GPM % (USD)}
+    State: Generated
+    Terms:
+    - gpm % (usd): {State: Generated}
+    - gpm %: {State: Generated, Weight: 0.75}
+    - gpm percentage (usd): {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.624}
+    - gpm pct (usd): {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.605}
+
+  SSBC_monthly_sales_log.PCT_gross_profit_by_product:
+    Definition:
+      Binding: {Table: SSBC Monthly Sales Logs, Measure: PCT Gross Profit By Product}
+    State: Generated
+    Terms:
+    - PCT gross profit by product: {State: Generated}
+    - profit: {State: Generated, Weight: 0.97}
+    - gross profit: {State: Generated, Weight: 0.97}
+    - PCT gross profit: {State: Generated, Weight: 0.97}
+    - pct aggregate profit by product: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.673}
+    - pct overall profit by product: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.673}
+    - pct whole profit by product: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.673}
+    - pct aggregate profit: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.657}
+    - pct overall profit: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.657}
+    - pct whole profit: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.657}
+    - aggregate profit: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.647}
+    - overall profit: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.647}
+    - whole profit: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.647}
+    - pct gross profit by artifact: {Type: Noun, State: Suggested, Source: {Agent: Thesaurus}, Weight: 0.624}
+
+Relationships:
+  SSBC_productcost_profile_is_expensive:
+    Binding: {Table: SSBC Product-Cost Profile}
+    State: Generated
+    Phrasings:
+    - Adjective:
+        Subject: SSBC_productcost_profile
+        Adjectives:
+        - expensive: {State: Generated}
+        Antonyms:
+        - cheap: {State: Generated}
+        Measurement: SSBC_productcost_profile.per_unit_cost_to_make
+      State: Generated
+      Weight: 0.99
+      ID: per_unit_cost_to_make_indicates_how_expensive_SSBC_productcost_profiles_are
+    - Attribute: {Subject: SSBC_productcost_profile, Object: SSBC_productcost_profile.per_unit_cost_to_make}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_productcost_profiles_have_per_unit_cost_to_make
+
+  SSBC_productcost_profile_is_expensive1:
+    Binding: {Table: SSBC Product-Cost Profile}
+    State: Generated
+    Phrasings:
+    - Adjective:
+        Subject: SSBC_productcost_profile
+        Adjectives:
+        - expensive: {State: Generated}
+        Antonyms:
+        - cheap: {State: Generated}
+        Measurement: SSBC_productcost_profile.per_unit_sales_price
+      State: Generated
+      Weight: 0.99
+      ID: per_unit_sales_price_indicates_how_expensive_SSBC_productcost_profiles_are
+    - Attribute: {Subject: SSBC_productcost_profile, Object: SSBC_productcost_profile.per_unit_sales_price}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_productcost_profiles_have_per_unit_sales_price
+
+  SSBC_productcost_profile_is_expensive2:
+    Binding: {Table: SSBC Product-Cost Profile}
+    State: Generated
+    Phrasings:
+    - Adjective:
+        Subject: SSBC_productcost_profile
+        Adjectives:
+        - expensive: {State: Generated}
+        Antonyms:
+        - cheap: {State: Generated}
+        Measurement: SSBC_productcost_profile.gross_profit_per_serving
+      State: Generated
+      Weight: 0.99
+      ID: gross_profit_per_serving_indicates_how_expensive_SSBC_productcost_profiles_are
+    - Attribute: {Subject: SSBC_productcost_profile, Object: SSBC_productcost_profile.gross_profit_per_serving}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_productcost_profiles_have_gross_profit_per_serving
+
+  SSBC_customer_list_as_of_FY2021_in_city:
+    Binding: {Table: SSBC Customer List (as of FY2021)}
+    State: Generated
+    SemanticSlots:
+      Where: SSBC_customer_list_as_of_FY2021.city
+    Phrasings:
+    - Preposition:
+        Subject: SSBC_customer_list_as_of_FY2021
+        Prepositions:
+        - in: {State: Generated}
+        Object: SSBC_customer_list_as_of_FY2021.city
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_customer_list_as_of_FY2021_are_in_cities
+
+  SSBC_customer_list_as_of_FY2021_in_state_province:
+    Binding: {Table: SSBC Customer List (as of FY2021)}
+    State: Generated
+    SemanticSlots:
+      Where: SSBC_customer_list_as_of_FY2021.state_province
+    Phrasings:
+    - Preposition:
+        Subject: SSBC_customer_list_as_of_FY2021
+        Prepositions:
+        - in: {State: Generated}
+        Object: SSBC_customer_list_as_of_FY2021.state_province
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_customer_list_as_of_FY2021_are_in_state_provinces
+
+  SSBC_customer_list_as_of_FY2021_in_country:
+    Binding: {Table: SSBC Customer List (as of FY2021)}
+    State: Generated
+    SemanticSlots:
+      Where: SSBC_customer_list_as_of_FY2021.country
+    Phrasings:
+    - Preposition:
+        Subject: SSBC_customer_list_as_of_FY2021
+        Prepositions:
+        - in: {State: Generated}
+        Object: SSBC_customer_list_as_of_FY2021.country
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_customer_list_as_of_FY2021_are_in_countries
+
+  USDCAD_exchange_rate_has_date:
+    Binding: {Table: USD-CAD Exchange Rates}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: USDCAD_exchange_rate, Object: USDCAD_exchange_rate.date}
+      State: Generated
+      Weight: 0.99
+      ID: USDCAD_exchange_rates_have_dates
+
+  USDCAD_exchange_rate_has_usd:
+    Binding: {Table: USD-CAD Exchange Rates}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: USDCAD_exchange_rate, Object: USDCAD_exchange_rate.usd}
+      State: Generated
+      Weight: 0.99
+      ID: USDCAD_exchange_rates_have_usd
+
+  USDCAD_exchange_rate_has_cad:
+    Binding: {Table: USD-CAD Exchange Rates}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: USDCAD_exchange_rate, Object: USDCAD_exchange_rate.cad}
+      State: Generated
+      Weight: 0.99
+      ID: USDCAD_exchange_rates_have_cads
+
+  SSBC_customer_list_as_of_FY2021_has_PK_customer_ID:
+    Binding: {Table: SSBC Customer List (as of FY2021)}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_customer_list_as_of_FY2021, Object: SSBC_customer_list_as_of_FY2021.PK_customer_ID}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_customer_list_as_of_FY2021_have_PK_customer_ID
+
+  SSBC_customer_list_as_of_FY2021_has_customer:
+    Binding: {Table: SSBC Customer List (as of FY2021)}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_customer_list_as_of_FY2021, Object: SSBC_customer_list_as_of_FY2021.customer}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_customer_list_as_of_FY2021_have_customers
+
+  SSBC_customer_list_as_of_FY2021_has_customer_type:
+    Binding: {Table: SSBC Customer List (as of FY2021)}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_customer_list_as_of_FY2021, Object: SSBC_customer_list_as_of_FY2021.customer_type}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_customer_list_as_of_FY2021_have_customer_types
+
+  SSBC_customer_list_as_of_FY2021_has_city:
+    Binding: {Table: SSBC Customer List (as of FY2021)}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_customer_list_as_of_FY2021, Object: SSBC_customer_list_as_of_FY2021.city}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_customer_list_as_of_FY2021_have_cities
+
+  SSBC_customer_list_as_of_FY2021_has_state_province:
+    Binding: {Table: SSBC Customer List (as of FY2021)}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_customer_list_as_of_FY2021, Object: SSBC_customer_list_as_of_FY2021.state_province}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_customer_list_as_of_FY2021_have_state_provinces
+
+  SSBC_customer_list_as_of_FY2021_has_country:
+    Binding: {Table: SSBC Customer List (as of FY2021)}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_customer_list_as_of_FY2021, Object: SSBC_customer_list_as_of_FY2021.country}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_customer_list_as_of_FY2021_have_countries
+
+  SSBC_fiscal_calendar_has_date:
+    Binding: {Table: SSBC Fiscal Calendar}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_fiscal_calendar, Object: SSBC_fiscal_calendar.date}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_fiscal_calendars_have_dates
+
+  SSBC_fiscal_calendar_has_year:
+    Binding: {Table: SSBC Fiscal Calendar}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_fiscal_calendar, Object: SSBC_fiscal_calendar.year}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_fiscal_calendars_have_years
+
+  SSBC_fiscal_calendar_has_month:
+    Binding: {Table: SSBC Fiscal Calendar}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_fiscal_calendar, Object: SSBC_fiscal_calendar.month}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_fiscal_calendars_have_months
+
+  SSBC_fiscal_calendar_has_month_name:
+    Binding: {Table: SSBC Fiscal Calendar}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_fiscal_calendar, Object: SSBC_fiscal_calendar.month_name}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_fiscal_calendars_have_month_names
+
+  SSBC_fiscal_calendar_has_quarter:
+    Binding: {Table: SSBC Fiscal Calendar}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_fiscal_calendar, Object: SSBC_fiscal_calendar.quarter}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_fiscal_calendars_have_quarters
+
+  SSBC_fiscal_calendar_has_week_of_year:
+    Binding: {Table: SSBC Fiscal Calendar}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_fiscal_calendar, Object: SSBC_fiscal_calendar.week_of_year}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_fiscal_calendars_have_week_of_year
+
+  SSBC_fiscal_calendar_has_day_name:
+    Binding: {Table: SSBC Fiscal Calendar}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_fiscal_calendar, Object: SSBC_fiscal_calendar.day_name}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_fiscal_calendars_have_day_names
+
+  SSBC_fiscal_calendar_has_monthshort:
+    Binding: {Table: SSBC Fiscal Calendar}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_fiscal_calendar, Object: SSBC_fiscal_calendar.monthshort}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_fiscal_calendars_have_monthshorts
+
+  SSBC_fiscal_calendar_has_period:
+    Binding: {Table: SSBC Fiscal Calendar}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_fiscal_calendar, Object: SSBC_fiscal_calendar.period}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_fiscal_calendars_have_periods
+
+  SSBC_fiscal_calendar_has_month_number:
+    Binding: {Table: SSBC Fiscal Calendar}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_fiscal_calendar, Object: SSBC_fiscal_calendar.month_number}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_fiscal_calendars_have_month_numbers
+
+  SSBC_fiscal_calendar_has_fiscal_period:
+    Binding: {Table: SSBC Fiscal Calendar}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_fiscal_calendar, Object: SSBC_fiscal_calendar.fiscal_period}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_fiscal_calendars_have_fiscal_periods
+
+  SSBC_fiscal_calendar_has_fiscal_year:
+    Binding: {Table: SSBC Fiscal Calendar}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_fiscal_calendar, Object: SSBC_fiscal_calendar.fiscal_year}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_fiscal_calendars_have_fiscal_years
+
+  SSBC_fiscal_calendar_has_fiscal_quarter:
+    Binding: {Table: SSBC Fiscal Calendar}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_fiscal_calendar, Object: SSBC_fiscal_calendar.fiscal_quarter}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_fiscal_calendars_have_fiscal_quarters
+
+  SSBC_fiscal_calendar_has_fiscal_qtr:
+    Binding: {Table: SSBC Fiscal Calendar}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_fiscal_calendar, Object: SSBC_fiscal_calendar.fiscal_qtr}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_fiscal_calendars_have_fiscal_qtrs
+
+  SSBC_productcost_profile_has_PK_product_ID:
+    Binding: {Table: SSBC Product-Cost Profile}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_productcost_profile, Object: SSBC_productcost_profile.PK_product_ID}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_productcost_profiles_have_PK_product_ID
+
+  SSBC_productcost_profile_has_product_name:
+    Binding: {Table: SSBC Product-Cost Profile}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_productcost_profile, Object: SSBC_productcost_profile.product_name}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_productcost_profiles_have_product_names
+
+  SSBC_productcost_profile_has_product_type:
+    Binding: {Table: SSBC Product-Cost Profile}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_productcost_profile, Object: SSBC_productcost_profile.product_type}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_productcost_profiles_have_product_types
+
+  SSBC_productcost_profile_has_serving_amount:
+    Binding: {Table: SSBC Product-Cost Profile}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_productcost_profile, Object: SSBC_productcost_profile.serving_amount}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_productcost_profiles_have_serving_amounts
+
+  SSBC_productcost_profile_has_abv:
+    Binding: {Table: SSBC Product-Cost Profile}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_productcost_profile, Object: SSBC_productcost_profile.abv}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_productcost_profiles_have_abvs
+
+  SSBC_productcost_profile_has_ibu:
+    Binding: {Table: SSBC Product-Cost Profile}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_productcost_profile, Object: SSBC_productcost_profile.ibu}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_productcost_profiles_have_ibus
+
+  SSBC_productcost_profile_has_BeerAdvocate_score:
+    Binding: {Table: SSBC Product-Cost Profile}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_productcost_profile, Object: SSBC_productcost_profile.BeerAdvocate_score}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_productcost_profiles_have_BeerAdvocate_scores
+
+  SSBC_productcost_profile_has_cost_rank:
+    Binding: {Table: SSBC Product-Cost Profile}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_productcost_profile, Object: SSBC_productcost_profile.cost_rank}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_productcost_profiles_have_cost_ranks
+
+  SSBC_productcost_profile_has_sales_rank:
+    Binding: {Table: SSBC Product-Cost Profile}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_productcost_profile, Object: SSBC_productcost_profile.sales_rank}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_productcost_profiles_have_sales_ranks
+
+  SSBC_monthly_sales_log_has_date:
+    Binding: {Table: SSBC Monthly Sales Logs}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_monthly_sales_log, Object: SSBC_monthly_sales_log.date}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_monthly_sales_logs_have_dates
+
+  SSBC_monthly_sales_log_has_currency:
+    Binding: {Table: SSBC Monthly Sales Logs}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_monthly_sales_log, Object: SSBC_monthly_sales_log.currency}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_monthly_sales_logs_have_currencies
+
+  SSBC_monthly_sales_log_has_quantity:
+    Binding: {Table: SSBC Monthly Sales Logs}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_monthly_sales_log, Object: SSBC_monthly_sales_log.quantity}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_monthly_sales_logs_have_quantities
+
+  SSBC_monthly_sales_log_has_total_sales_cad:
+    Binding: {Table: SSBC Monthly Sales Logs}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_monthly_sales_log, Object: SSBC_monthly_sales_log.total_sales_cad}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_monthly_sales_logs_have_total_sales_cad
+
+  SSBC_monthly_sales_log_has_total_sales_usd:
+    Binding: {Table: SSBC Monthly Sales Logs}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_monthly_sales_log, Object: SSBC_monthly_sales_log.total_sales_usd}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_monthly_sales_logs_have_total_sales_usd
+
+  SSBC_monthly_sales_log_has_cogs_usd:
+    Binding: {Table: SSBC Monthly Sales Logs}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_monthly_sales_log, Object: SSBC_monthly_sales_log.cogs_usd}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_monthly_sales_logs_have_cogs_usd
+
+  SSBC_monthly_sales_log_has_GPM_Year_total__USD:
+    Binding: {Table: SSBC Monthly Sales Logs}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_monthly_sales_log, Object: SSBC_monthly_sales_log.GPM_Year_total__USD}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_monthly_sales_logs_have_GPM_Year_total__USD
+
+  SSBC_monthly_sales_log_has_PCT_unit_sales_by_product:
+    Binding: {Table: SSBC Monthly Sales Logs}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_monthly_sales_log, Object: SSBC_monthly_sales_log.PCT_unit_sales_by_product}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_monthly_sales_logs_have_PCT_unit_sales_by_product
+
+  SSBC_monthly_sales_log_has_sales_usd:
+    Binding: {Table: SSBC Monthly Sales Logs}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_monthly_sales_log, Object: SSBC_monthly_sales_log.sales_usd}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_monthly_sales_logs_have_sales_usd
+
+  SSBC_monthly_sales_log_has_cogs_by_product_usd:
+    Binding: {Table: SSBC Monthly Sales Logs}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_monthly_sales_log, Object: SSBC_monthly_sales_log.cogs_by_product_usd}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_monthly_sales_logs_have_cogs_by_product_usd
+
+  SSBC_monthly_sales_log_has_gpm__usd:
+    Binding: {Table: SSBC Monthly Sales Logs}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_monthly_sales_log, Object: SSBC_monthly_sales_log.gpm__usd}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_monthly_sales_logs_have_gpm__usd
+
+  SSBC_monthly_sales_log_has_PCT_gross_profit_by_product:
+    Binding: {Table: SSBC Monthly Sales Logs}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_monthly_sales_log, Object: SSBC_monthly_sales_log.PCT_gross_profit_by_product}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_monthly_sales_logs_have_PCT_gross_profit_by_product
+
+  SSBC_monthly_sales_log_has_USDCAD_exchange_rate:
+    Binding: {Table: SSBC Monthly Sales Logs}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_monthly_sales_log, Object: USDCAD_exchange_rate}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_monthly_sales_logs_have_USDCAD_exchange_rates
+    - Attribute: {Subject: USDCAD_exchange_rate, Object: SSBC_monthly_sales_log}
+      State: Generated
+      Weight: 0.99
+      ID: USDCAD_exchange_rates_have_SSBC_monthly_sales_logs
+
+  SSBC_monthly_sales_log_has_SSBC_fiscal_calendar:
+    Binding: {Table: SSBC Monthly Sales Logs}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_monthly_sales_log, Object: SSBC_fiscal_calendar}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_monthly_sales_logs_have_SSBC_fiscal_calendars
+    - Attribute: {Subject: SSBC_fiscal_calendar, Object: SSBC_monthly_sales_log}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_fiscal_calendars_have_SSBC_monthly_sales_logs
+
+  SSBC_monthly_sales_log_has_SSBC_productcost_profile:
+    Binding: {Table: SSBC Monthly Sales Logs}
+    State: Generated
+    Roles:
+      SSBC_productcost_profile:
+        Target: SSBC_productcost_profile
+        Nouns:
+        - product: {State: Generated}
+    Phrasings:
+    - Attribute: {Subject: SSBC_monthly_sales_log, Object: SSBC_productcost_profile}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_monthly_sales_logs_have_SSBC_productcost_profiles
+    - Attribute: {Subject: SSBC_productcost_profile, Object: SSBC_monthly_sales_log}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_productcost_profiles_have_SSBC_monthly_sales_logs
+
+  SSBC_monthly_sales_log_has_SSBC_customer_list_as_of_FY2021:
+    Binding: {Table: SSBC Monthly Sales Logs}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: SSBC_monthly_sales_log, Object: SSBC_customer_list_as_of_FY2021}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_monthly_sales_logs_have_SSBC_customer_list_as_of_FY2021
+    - Attribute: {Subject: SSBC_customer_list_as_of_FY2021, Object: SSBC_monthly_sales_log}
+      State: Generated
+      Weight: 0.99
+      ID: SSBC_customer_list_as_of_FY2021_have_SSBC_monthly_sales_logs
+
+  USDCAD_exchange_rate_date_has_date_hierarchy:
+    Binding: {Table: USD-CAD Exchange Rates}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: USDCAD_exchange_rate.date, Object: USDCAD_exchange_rate.date.date_hierarchy}
+      State: Generated
+      Weight: 0.99
+      ID: dates_have_date_hierarchies
+
+  USDCAD_exchange_rate_date_date_hierarchy_has_USDCAD_exchange_rate_date_year:
+    Binding: {Table: USD-CAD Exchange Rates}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: USDCAD_exchange_rate.date.date_hierarchy, Object: USDCAD_exchange_rate.date.year}
+      State: Generated
+      Weight: 0.99
+      ID: date_hierarchies_have_years
+
+  USDCAD_exchange_rate_date_date_hierarchy_has_USDCAD_exchange_rate_date_quarter:
+    Binding: {Table: USD-CAD Exchange Rates}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: USDCAD_exchange_rate.date.date_hierarchy, Object: USDCAD_exchange_rate.date.quarter}
+      State: Generated
+      Weight: 0.99
+      ID: date_hierarchies_have_quarters
+
+  USDCAD_exchange_rate_date_date_hierarchy_has_USDCAD_exchange_rate_date_month:
+    Binding: {Table: USD-CAD Exchange Rates}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: USDCAD_exchange_rate.date.date_hierarchy, Object: USDCAD_exchange_rate.date.month}
+      State: Generated
+      Weight: 0.99
+      ID: date_hierarchies_have_months
+
+  USDCAD_exchange_rate_date_date_hierarchy_has_USDCAD_exchange_rate_date_day:
+    Binding: {Table: USD-CAD Exchange Rates}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: USDCAD_exchange_rate.date.date_hierarchy, Object: USDCAD_exchange_rate.date.day}
+      State: Generated
+      Weight: 0.99
+      ID: date_hierarchies_have_days
+
